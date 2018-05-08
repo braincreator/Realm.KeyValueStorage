@@ -10,6 +10,7 @@ namespace Realms.KeyValueStorage
     /// <b>Warning</b>: Realm instances are not thread safe and can not be shared across threads.
     /// You must call <see cref="M:Realms.Realm.GetInstance(Realms.RealmConfigurationBase)" /> on each thread in which you want to interact with the Realm.
     /// </remarks>
+    [Preserve(AllMembers = true)]
     public class KeyValueRealm : IDisposable
     {
         #region Fields & Properties
